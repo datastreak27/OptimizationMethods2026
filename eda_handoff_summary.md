@@ -97,3 +97,7 @@ All of these are computed and ready to export as `.csv` or `.pkl` from the noteb
 3. **Doubleheaders appear as separate rows** in the game log. They don't generate extra travel (same park both games), and the travel function handles this correctly.
 4. **Postponed/rescheduled games** are included in the log at their *played* date, which is the right behavior for computing actual historical travel.
 5. **The model assumes 3-game series** as the standard unit. The EDA doesn't enforce this — that's a constraint the modeler adds.
+
+## Please Read 
+
+I (branson vu), might add more to the EDA should we focus on designing a schedule that involves uncertainty (i.e weather conditions or unpredictable real world events), which then I may want to implement Bayesian Methods based on attendance, rivaly strength and using posterior weights on the objective model using R (rstan package).

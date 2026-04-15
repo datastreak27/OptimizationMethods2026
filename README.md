@@ -2,6 +2,10 @@
 
 This repository contains the work for **Mixed-Integer Linear Programming (MILP)** project to optimize the Major League Baseball (MLB) schedule. The primary goal is to minimize total league-wide travel distance across the 162-game season, subject to real-world scheduling constraints such as mandatory series lengths, matchup quotas, and consecutive home/away limits.
 
+## Please Read 
+
+I (branson vu), might add more to the EDA should we focus on designing a schedule that involves uncertainty (i.e weather conditions or unpredictable real world events), which then I may want to implement Bayesian Methods based on attendance, rivaly strength and using posterior weights on the objective model using R (rstan package).
+
 ---
 
 ## What's in This Repo
