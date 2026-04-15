@@ -11,7 +11,7 @@ I (branson vu), might add more to the EDA should we focus on designing a schedul
 ## What's in This Repo
 
 ### `Optimization_EDA.ipynb` — Exploratory Data Analysis
-This notebook is the **starting point for any colleague joining the project**. It processes 2025 Retrosheet game log data to extract and validate all parameters needed to build the MILP model. It covers four tasks:
+This notebook is the **starting point for any of you working on the project**. It processes 2025 Retrosheet game log data to extract and validate all parameters needed to build the MILP model. It covers four tasks:
 
 | Task | Output | MILP Role |
 |------|--------|-----------|
